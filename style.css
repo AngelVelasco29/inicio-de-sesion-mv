@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url("images/fondo-login.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-user {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.login-title{
+    margin-top: 50px;
+}
+
+.login-form{
+    min-width: 300px;
+    width: 50%;
+
+}
+
+
+.login-parraf{
+    margin-top: 12px;
+}
+
+.input-top{
+    margin-top: 16px;
+}
+
+.login-forgot{
+    display: block;
+    margin-top: 10px;
+}
+
+.login-forgot a{
+    text-decoration: none;
+    color: rgb(44, 104, 235);
+}
+
+.login-button{
+    width: 100%;
+    height: 34px;
+    border-radius: 12px;
+    background-color: #1d457c;
+    color: white;
+    margin-top: 12px;
+}
+
+.redes-buttons{
+    display: flex;
+    min-width: 300px;
+    width: 50%;
+    justify-content: space-around;
+}
+.redes-buttons-margin{
+    margin-bottom:50px;
+}
+
+.red-button{
+    width: 40%;
+    height: 34px;
+    border-radius: 12px;
+    margin-top: 12px;
+    border: none;
+}
+
+.button-facebook{
+    background-color: #3b5998;
+    color: white;
+}
+
+.button-google{
+    background:white;
+    color: rgb(53, 53, 53);
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-mail{
+    width: 80%;
+    border: 1px solid black;
+}
+
+.display-buttons{
+    display: none;
+}
+
+.button-google img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.login-create-account {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.display-window{
+    display: none;
+}
+
+.login-checkbox{
+    display: flex;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.login-checkbox input{
+    margin-right: 20px;
+    margin-top: 5px;
+}

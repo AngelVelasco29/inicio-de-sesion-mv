@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="./input-top.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d9eacc821b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="background">
+        <div class="login-container">
+            <div class="login-user">
+                <h2 class="login-title">¡Bienvenido a MV electronica!</h2>
+                <p class="login-parraf">Iniciar sesion con tu cuenta</p>
+                <form class="login-form" action="#">
+                    <div class="input-top">
+                        <label> 
+                            <span>Usuario o correo electrónico</span>
+                            <input type="email">
+                        </label>
+                    </div>
+                    <div class="input-top">
+                        <label> 
+                            <span>Contraseña</span>
+                            <input type="password">
+                        </label>
+                    </div>
+                    <label class="login-forgot">
+                        <a href="">Olvide mi contraseña</a>
+                    </label>
+                    <button type="button" class="login-button">Iniciar sesión</button>
+                </form>
+                <p class="login-parraf">O inicia sesión con</p>
+                <div class="redes-buttons redes-buttons-margin">
+                    <button class="red-button button-facebook"><i class="fa-brands fa-facebook-square"></i> Facebook</button>
+                    <button class="red-button button-google"> <img src="./images/google-logo.svg" alt=""> Google</button>
+                </div>
+            </div>
+            <div class="login-create-account">
+                <div class="create-account-buttons">
+                    <h2>Crea un cuenta</h2>
+                    <div class="redes-buttons">
+                        <button class="red-button button-facebook">Facebook</button>
+                        <button class="red-button button-google"><img src="./images/google-logo.svg" alt="">Google</button>
+                    </div>
+                </div>
+                <button class="red-button button-mail" onclick="buttonMail()">Registrate con tu correo</button>
+                <form class="login-form form-create-account display-window">
+                    <div class="input-top">
+                        <label> 
+                            <span>Usuario</span>
+                            <input type="text">
+                        </label>
+                    </div>
+                    <div class="input-top">
+                        <label> 
+                            <span>Correo</span>
+                            <input type="email">
+                        </label>
+                    </div>
+                    <div class="input-top">
+                        <label> 
+                            <span>Telefono</span>
+                            <input type="number">
+                        </label>
+                    </div>
+                    <div class="input-top">
+                        <label> 
+                            <span>Contraseña</span>
+                            <input type="password">
+                        </label>
+                    </div>
+                    <div class="input-top">
+                        <label> 
+                            <span>Confirmar contraseña</span>
+                            <input type="password">
+                        </label>
+                    </div>
+                    <label class="login-checkbox">
+                        <input type="checkbox">
+                        <p>Acepto los <a href="">Términos y condiciones</a> y autorizo el uso de mis datos de acuerdo al <a href="">Aviso de privacidad</a>.</p>
+                    </label>
+                    <button type="button" class="login-button">Crear mi cuenta</button>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./input-top.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
